@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://alterkawiconstruye.com/sitemap.xml
+Sitemap: https://www.alterkawiconstruye.com/sitemap.xml
