@@ -152,3 +152,15 @@ footer{border-top:1px solid var(--line);padding:30px 0;font-size:13.5px;color:va
 .laminas-galeria{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;margin:22px 0 6px;padding-bottom:10px}
 .laminas-galeria .lamina{flex:0 0 100%;scroll-snap-align:start;margin:0}
 .laminas-ayuda{font-size:13px;color:var(--gold-2);margin:0 0 28px}
+/* servicios en artículos */
+.servicios-box{border:1px solid var(--gold);border-radius:16px;padding:26px 28px;margin:44px 0 10px;}
+.post .servicios-box h2{margin:0 0 6px;font-size:24px;}
+.servicios-box>p{color:var(--muted);font-size:15.5px;margin-bottom:16px;}
+.serv-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;}
+.serv{background:var(--bg-alt);border:1px solid var(--line);border-radius:12px;padding:16px 16px 14px;display:flex;flex-direction:column;color:var(--ink);text-decoration:none !important;}
+.serv:hover{border-color:var(--gold);}
+.serv.dest{border-color:var(--gold);box-shadow:inset 4px 0 0 var(--gold);}
+.serv .chip{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-2);margin-bottom:6px;}
+.serv strong{font-size:16.5px;margin-bottom:4px;}
+.serv span.d{color:var(--muted);font-size:14px;line-height:1.45;flex:1;}
+.serv span.go{color:var(--gold-2);font-size:13.5px;font-weight:600;margin-top:10px;}
