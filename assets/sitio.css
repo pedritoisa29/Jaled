@@ -164,3 +164,9 @@ footer{border-top:1px solid var(--line);padding:30px 0;font-size:13.5px;color:va
 .serv strong{font-size:16.5px;margin-bottom:4px;}
 .serv span.d{color:var(--muted);font-size:14px;line-height:1.45;flex:1;}
 .serv span.go{color:var(--gold-2);font-size:13.5px;font-weight:600;margin-top:10px;}
+/* video short en artículos */
+.video-short{margin:28px auto 32px;max-width:360px;}
+.video-short .marco{position:relative;padding-top:177.78%;border-radius:14px;overflow:hidden;border:1px solid var(--gold);background:#000;}
+.video-short iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+.video-short figcaption{text-align:center;color:var(--muted);font-size:14px;margin-top:10px;}
+.video-short figcaption a{color:var(--gold-2);}
